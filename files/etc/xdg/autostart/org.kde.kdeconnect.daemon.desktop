@@ -1,4 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=KDE Connect Daemon
-NotShowIn=COSMIC;
+# Make it start only in KDE/Plasma sessions.
+OnlyShowIn=KDE;Plasma;
