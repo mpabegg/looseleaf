@@ -13,6 +13,6 @@ modules:
   # Set COSMIC as the default preselected SDDM session (upgrade-safe drop-in)
   - type: files
     files:
-      - source: files/etc/sddm.conf.d/10-default-session.conf
+      - source: etc/sddm.conf.d/10-default-session.conf
         destination: /etc/sddm.conf.d/10-default-session.conf
 
