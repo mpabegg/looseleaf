@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=Looseleaf
-Description=Looseleaf calm, modern boot splash.
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/looseleaf
-ScriptFile=/usr/share/plymouth/themes/looseleaf/looseleaf.script

@@ -1,9 +1,8 @@
 {
-    // System default config; keep assets under /etc for all users.
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
         "type": "file",
-        "source": "/etc/fastfetch/logo.txt",
+        "source": "/usr/share/looseleaf/logo.txt",
         "padding": {
             "top": 0,
             "right": 0
