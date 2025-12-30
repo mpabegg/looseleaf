@@ -16,5 +16,5 @@ modules:
   # Build-time branding adjustments that must land before initramfs generation.
   - type: script
     scripts:
-      - files/scripts/looseleaf-os-release.sh
-      - files/scripts/looseleaf-build-initramfs.sh
+      - looseleaf-os-release.sh
+      - looseleaf-build-initramfs.sh
