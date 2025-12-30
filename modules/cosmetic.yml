@@ -12,3 +12,9 @@ modules:
       # Copy files/system/* into the image root.
       - source: system
         destination: /
+
+  # Build-time branding adjustments that must land before initramfs generation.
+  - type: script
+    scripts:
+      - files/scripts/looseleaf-os-release.sh
+      - files/scripts/looseleaf-build-initramfs.sh
