@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="180 150 750 230" fill="none" role="img" aria-label="looseleaf logo lockup: leaf icon and wordmark">
+
+  <defs>
+    <linearGradient id="leaf" x1="180" y1="140" x2="400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F6FF"/>
+      <stop offset="48%" stop-color="#D100FF"/>
+      <stop offset="100%" stop-color="#FF6A00"/>
+    </linearGradient>
+    <linearGradient id="vein" x1="200" y1="360" x2="360" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#00F6FF"/>
+    </linearGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <!-- ICON (unchanged, visually centered) -->
+  <g filter="url(#soft)" transform="translate(256 256) scale(0.72) translate(-256 -256) translate(-30 -12)">    <!-- Leaf body -->
+    <path d="M356 164 C304 168 256 194 226 236 C190 286 198 356 246 392 C292 426 360 414 398 362 C428 320 432 258 414 218 C398 186 378 166 356 164 Z" fill="url(#leaf)"/>
+    <!-- Highlight (thin, graphic) -->
+    <path d="M254 244 C236 270 232 306 244 334 C260 372 300 392 336 384" stroke="#FFFFFF" stroke-opacity="0.38" stroke-width="6" stroke-linecap="round"/>
+    <!-- Main vein (gradient stroke) -->
+    <path d="M238 360 C276 338 316 292 348 220" stroke="url(#vein)" stroke-opacity="0.55" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <!-- WORDMARK: Gotham Rounded–like -->
+  <text x="375" y="280" fill="#E5E7EB" font-size="112" font-weight="600" letter-spacing="-0.8" dominant-baseline="middle" font-family="
+          'Open Runde'
+        ">
+    looseleaf
+  </text>
+</svg>

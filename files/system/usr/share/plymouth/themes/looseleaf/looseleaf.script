@@ -1,0 +1,9 @@
+# Looseleaf Plymouth theme script with a minimal, calm boot splash.
+Window.SetBackgroundTopColor(0.04, 0.07, 0.08);
+Window.SetBackgroundBottomColor(0.02, 0.04, 0.05);
+
+# Use the provided wordmark SVG to replace the default spinner branding.
+logo_image = Image("looseleaf-wordmark.svg");
+logo_sprite = Sprite(logo_image);
+logo_sprite.SetX((Window.GetWidth() - logo_image.GetWidth()) / 2);
+logo_sprite.SetY((Window.GetHeight() - logo_image.GetHeight()) / 2);

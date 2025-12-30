@@ -1,0 +1,14 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+# Cosmetic-only modules for Looseleaf Phase 1.
+modules:
+  - type: dnf
+    install:
+      packages:
+        - fastfetch
+
+  - type: files
+    files:
+      # Copy files/system/* into the image root.
+      - source: system
+        destination: /
