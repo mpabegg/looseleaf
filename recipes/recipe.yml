@@ -13,5 +13,6 @@ image-version: latest # latest is supported if you want new updates ASAP
 modules:
   # Keep Phase 1 changes isolated and easy to revert.
   - from-file: ../modules/cosmetic.yml
+  - from-file: ../modules/software.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

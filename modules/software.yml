@@ -1,0 +1,26 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+# Non-cosmetic software additions (keyd, 1Password).
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - alternateved/keyd
+        - v8v88v8v88/helium
+        - sneexy/zen-browser
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    install:
+      packages:
+        - keyd
+        - 1password
+        - 1password-cli
+        - helium
+        - vim
+        - zen-browser
+        - brave-browser
+
+  - type: systemd
+    system:
+      enabled:
+        - keyd.service
